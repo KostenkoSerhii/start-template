@@ -1,0 +1,28 @@
+=rob
+	font-family: 'Roboto', sans-serif
+=play
+	font-family: 'Play', sans-serif
+
+=lg
+	@media only screen and (max-width: "1199px")
+		@content
+=l
+	@media only screen and (max-width: "1023px")
+		@content
+=m
+	@media only screen and (max-width: "991px")
+		@content
+=xs
+	@media only screen and (max-width: "767px")
+		@content
+
+
+a
+	text-decoration: none
+h1, h2, h3, h4, h5, h6
+	font-weight: normal
+body
+	background: #FFF
+	+css-lock(16, 50, 600, 1000)
+	line-height: 1.4
+
